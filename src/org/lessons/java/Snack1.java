@@ -18,5 +18,7 @@ public class Snack1 {
         } else {
             System.out.println(inputNumber + " è un numero dipari!");
         }
+
+        scan.close();
     }
 }
