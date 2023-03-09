@@ -33,7 +33,7 @@ public class Snack4 {
         for (int i = 0; i < difference; i++) {
             int randomNumber = (int)(Math.random() * range) + min;
 
-            System.out.print(" " + randomNumber);
+            System.out.print(", " + randomNumber);
 
         }
 
