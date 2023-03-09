@@ -12,7 +12,7 @@ public class Snack4 {
         int range = max - min + 1;
 
 
-
+        /* popolo due array di dimensioni diverse */
 
         for (int i = 0; i < longerArray.length; i++) {
             int randomNumber = (int)(Math.random() * range) + min;
@@ -28,7 +28,7 @@ public class Snack4 {
         System.out.println("Longer array:  " + Arrays.toString(longerArray));
         System.out.print("Shorter array: " + Arrays.toString(shorterArray));
 
-
+        /* faccio un ciclo con il valore della differenza tra i due array aggiungendo quello che manca */
         int difference = longerArray.length - shorterArray.length;
         for (int i = 0; i < difference; i++) {
             int randomNumber = (int)(Math.random() * range) + min;
