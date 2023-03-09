@@ -34,6 +34,7 @@ public class Snack4 {
             int randomNumber = (int)(Math.random() * range) + min;
 
             System.out.print(" " + randomNumber);
+
         }
 
 
